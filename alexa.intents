@@ -1,0 +1,410 @@
+{
+  "intents": [
+    {
+      "intent": "WhatNewAlbums",
+      "slots": []
+    },
+    {
+      "intent": "WhatNewMovies",
+      "slots": []
+    },
+    {
+      "intent": "WhatNewShows",
+      "slots": []
+    },
+    {
+      "intent": "NewShowInquiry",
+      "slots": [
+        {
+          "name": "Show",
+          "type": "SHOWS"
+        }
+      ]
+    },
+    {
+      "intent": "CleanVideo",
+      "slots": []
+    },
+    {
+      "intent": "UpdateVideo",
+      "slots": []
+    },
+    {
+      "intent": "CleanAudio",
+      "slots": []
+    },
+    {
+      "intent": "UpdateAudio",
+      "slots": []
+    },
+    {
+      "intent": "PlayPause",
+      "slots": []
+    },
+    {
+      "intent": "PlayerSeekSmallForward",
+      "slots": []
+    },
+    {
+      "intent": "PlayerSeekSmallBackward",
+      "slots": []
+    },
+    {
+      "intent": "PlayerSeekBigForward",
+      "slots": []
+    },
+    {
+      "intent": "PlayerSeekBigBackward",
+      "slots": []
+    },
+    {
+      "intent": "Stop",
+      "slots": []
+    },
+    {
+      "intent": "WhatAlbums",
+      "slots": [
+        {
+          "name": "Artist",
+          "type": "MUSICARTISTS"
+        }
+      ]
+    },
+    {
+      "intent": "ListenToAlbum",
+      "slots": [
+        {
+          "name": "Artist",
+          "type": "MUSICARTISTS"
+        },
+        {
+          "name": "Album",
+          "type": "MUSICALBUMS"
+        }
+      ]
+    },
+    {
+      "intent": "ListenToArtist",
+      "slots": [
+        {
+          "name": "Artist",
+          "type": "MUSICARTISTS"
+        }
+      ]
+    },
+    {
+      "intent": "ListenToPlaylist",
+      "slots": [
+        {
+          "name": "Playlist",
+          "type": "MUSICPLAYLISTS"
+        }
+      ]
+    },
+    {
+      "intent": "ListenToPlaylistRecent",
+      "slots": []
+    },
+    {
+      "intent": "PlayRandomEpisode",
+      "slots": [
+        {
+          "name": "Show",
+          "type": "SHOWS"
+        }
+      ]
+    },
+    {
+      "intent": "PlayLatestEpisode",
+      "slots": [
+        {
+          "name": "Show",
+          "type": "SHOWS"
+        }
+      ]
+    },
+    {
+      "intent": "PlayNextEpisode",
+      "slots": [
+        {
+          "name": "Show",
+          "type": "SHOWS"
+        }
+      ]
+    },
+    {
+      "intent": "PlayMovie",
+      "slots": [
+        {
+          "name": "Movie",
+          "type": "MOVIES"
+        }
+      ]
+    },
+    {
+      "intent": "PlayRandomMovie",
+      "slots": [
+        {
+          "name": "Genre",
+          "type": "MOVIEGENRES"
+        }
+      ]
+    },
+    {
+      "intent": "Prev",
+      "slots": []
+    },
+    {
+      "intent": "Skip",
+      "slots": []
+    },
+    {
+      "intent": "StartOver",
+      "slots": []
+    },
+    {
+      "intent": "Home",
+      "slots": []
+    },
+    {
+      "intent": "Back",
+      "slots": []
+    },
+    {
+      "intent": "Up",
+      "slots": []
+    },
+    {
+      "intent": "Down",
+      "slots": []
+    },
+    {
+      "intent": "Right",
+      "slots": []
+    },
+    {
+      "intent": "Left",
+      "slots": []
+    },
+    {
+      "intent": "Select",
+      "slots": []
+    },
+    {
+      "intent": "Menu",
+      "slots": []
+    },
+    {
+      "intent": "PageUp",
+      "slots": []
+    },
+    {
+      "intent": "PageDown",
+      "slots": []
+    },
+    {
+      "intent": "Fullscreen",
+      "slots": []
+    },
+    {
+      "intent": "Mute",
+      "slots": []
+    },
+    {
+      "intent": "VolumeUp",
+      "slots": []
+    },
+    {
+      "intent": "VolumeDown",
+      "slots": []
+    },
+    {
+      "intent": "VolumeSet",
+      "slots": [
+        {
+          "name": "Volume",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "VolumeSetPct",
+      "slots": [
+        {
+          "name": "Volume",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "SubtitlesOn",
+      "slots": []
+    },
+    {
+      "intent": "SubtitlesOff",
+      "slots": []
+    },
+    {
+      "intent": "SubtitlesNext",
+      "slots": []
+    },
+    {
+      "intent": "SubtitlesPrevious",
+      "slots": []
+    },
+    {
+      "intent": "AudioStreamNext",
+      "slots": []
+    },
+    {
+      "intent": "AudioStreamPrevious",
+      "slots": []
+    },
+    {
+      "intent": "PlayerMoveUp",
+      "slots": []
+    },
+    {
+      "intent": "PlayerMoveDown",
+      "slots": []
+    },
+    {
+      "intent": "PlayerMoveLeft",
+      "slots": []
+    },
+    {
+      "intent": "PlayerMoveRight",
+      "slots": []
+    },
+    {
+      "intent": "PlayerRotateClockwise",
+      "slots": []
+    },
+    {
+      "intent": "PlayerRotateCounterClockwise",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomHold",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomIn",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomInMoveUp",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomInMoveDown",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomInMoveLeft",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomInMoveRight",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomOut",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomOutMoveUp",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomOutMoveDown",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomOutMoveLeft",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomOutMoveRight",
+      "slots": []
+    },
+    {
+      "intent": "PlayerZoomReset",
+      "slots": []
+    },
+    {
+      "intent": "Hibernate",
+      "slots": []
+    },
+    {
+      "intent": "Reboot",
+      "slots": []
+    },
+    {
+      "intent": "Shutdown",
+      "slots": []
+    },
+    {
+      "intent": "Suspend",
+      "slots": []
+    },
+    {
+      "intent": "EjectMedia",
+      "slots": []
+    },
+    {
+      "intent": "ContinueShow",
+      "slots": []
+    },
+    {
+      "intent": "PartyMode",
+      "slots": []
+    },
+    {
+      "intent": "DoSearch",
+      "slots": [
+        {
+          "name": "Artist",
+          "type": "MUSICARTISTS"
+        },
+        {
+          "name": "Album",
+          "type": "MUSICALBUMS"
+        },
+        {
+          "name": "Movie",
+          "type": "MOVIES"
+        },
+        {
+          "name": "Show",
+          "type": "SHOWS"
+        }
+      ]
+    },
+    {
+      "intent": "PlayEpisode",
+      "slots": [
+        {
+          "name": "Show",
+          "type": "SHOWS"
+        },
+        {
+          "name": "Episode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "Season",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "CurrentPlayItemInquiry",
+      "slots": []
+    },
+    {
+      "intent": "CurrentPlayItemTimeRemaining",
+      "slots": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+v2.0.5 (11/09/2016)
+* Added ability to play a specific album
+* Added intent to query available albums by a specific artist
+* Added intent to query new (unwatched) movies
+* Better content matching
+* Added ability to request time remaining on currently playing item
+
+v2.0.4 (10/27/2016)
+* Wrote python script to handle deploying to lambda
+* Added power intents
+* Added EjectMedia intents
+* Added Fullscreen (Toggle) intent
+* Added Mute (Toggle) intent
+* Added support for selecting/toggling subtitles
+* Added support for cycling audio streams
+* Added basic step forward and step backwards commands
+* Added check for verifying requests come from Alexa for WSGI servers
+* Added the capability to resume movies and TV-Shows
+
+v2.0.0 (10/02/2016)
+* Merged in a bunch of good PRs dealing with playing playlists
+* Added ability to query information about currently playing item
+* Added in 'Search' and 'Party mode' intents
+* Reversed order of Update/Clean functions and threaded them so now the skill won't timeout
+* Updated documentation
+
+v1.5.0 (04/13/2016)
+* Updated utterances to use custom slots instead of AMAZON.LITERALs
+* Re-wrote how the phrases get parsed to be as good as possible
+* Added Intents to clean/update audio and video libraries
+* Added Intent to watch the newest episode of a show
+
+v1.0.2 (04/07/2016)
+===================
+* Updated documentation and source for using Heroku by default instead of Openshift
+
+v1.0.1 (01/12/2016)
+===================
+* Changed random on movies and tv shows to only search for unwatched episodes. If there are none, pick a watched one
+* Added Intent to be able to watch next episode of whatever was watched last
+* Added Intent to be able to watch next episode of specific tv show
+
+v.1.0.0 (01/01/2016)
+===================
+* Initial release
